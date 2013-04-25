@@ -9,6 +9,7 @@
 //------------------------------------------------------------------------------
 
 namespace WordsBook.Properties {
+    using System;
     
     
     /// <summary>
@@ -56,6 +57,20 @@ namespace WordsBook.Properties {
             }
             set {
                 resourceCulture = value;
+            }
+        }
+        
+        internal static System.Drawing.Bitmap p32 {
+            get {
+                object obj = ResourceManager.GetObject("p32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap ph32 {
+            get {
+                object obj = ResourceManager.GetObject("ph32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
     }
